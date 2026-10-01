@@ -31,7 +31,7 @@ pip install -r requirements.txt
 # 1. Reference text database (once, about 30 minutes on a GPU), from the COCO 2017 captions
 wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
 unzip annotations_trainval2017.zip annotations/captions_train2017.json
-python -m utils.build_text_db --model qwen2vl --coco-captions annotations/captions_train2017.json
+python -m utils.build_text_db --model qwen25vl --coco-captions annotations/captions_train2017.json
 
 # 2. Demo (GPU, a few minutes)
 jupyter notebook notebooks/demo.ipynb
@@ -46,8 +46,8 @@ you use (less than 1% of the LALS range).
 from utils.functions import LALSScorer, TextDB, image_summary
 from utils.models import load_image, load_vlm
 
-vlm = load_vlm("qwen2vl")
-scorer = LALSScorer(TextDB.load("embeddb/qwen2vl", layer=16), k=20)
+vlm = load_vlm("qwen25vl")
+scorer = LALSScorer(TextDB.load("embeddb/qwen25vl", layer=16), k=20)
 hidden = vlm.visual_token_states(load_image("photo.png"), layers=[16])[16]
 print(image_summary(scorer.token_scores(hidden)))   # mean LALS of the image (+ female / - male)
 ```
