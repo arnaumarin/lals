@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use LALS, please cite the paper below."
+title: "LALS: Latent Association Leaning Score"
+authors:
+  - family-names: Marin-Llobet
+    given-names: Arnau
+  - family-names: Henniger
+    given-names: Simon
+  - family-names: Banaji
+    given-names: Mahzarin R.
+preferred-citation:
+  type: conference-paper
+  title: "Vision-Language Models Suppress Female Representations Under Ambiguous Input"
+  authors:
+    - family-names: Marin-Llobet
+      given-names: Arnau
+    - family-names: Henniger
+      given-names: Simon
+    - family-names: Banaji
+      given-names: Mahzarin R.
+  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2605.31556"
+  url: "https://arxiv.org/abs/2605.31556"

@@ -1,0 +1,14 @@
+# generated
+outputs/
+/embeddb
+data/images/
+data/coco/
+2605.31556v2.pdf
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/

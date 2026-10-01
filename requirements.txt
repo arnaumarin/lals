@@ -1,0 +1,18 @@
+# The paper's runs used transformers 4.51 with the default (slow) image processors;
+# other versions can change results slightly.
+numpy>=1.24
+pillow>=9.0
+torch>=2.1
+torchvision>=0.16
+transformers==4.51.3
+accelerate>=0.26
+tqdm
+faiss-cpu>=1.7
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.10
+jupyter
+# InternVL2.5 only
+timm
+einops
+sentencepiece
