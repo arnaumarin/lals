@@ -3,6 +3,7 @@
 Code and data for
 
 > **Vision-Language Models Suppress Female Representations Under Ambiguous Input**
+> 
 > Arnau Marin-Llobet, Simon Henniger, Mahzarin R. Banaji. *EMNLP 2026.*
 > [arXiv:2605.31556](https://arxiv.org/abs/2605.31556)
 
