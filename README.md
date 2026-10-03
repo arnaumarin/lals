@@ -55,12 +55,11 @@ print(image_summary(scorer.token_scores(hidden)))   # mean LALS of the image (+ 
 ## Citation
 
 ```bibtex
-@inproceedings{marinllobet2026lals,
-  title     = {Vision-Language Models Suppress Female Representations Under Ambiguous Input},
-  author    = {Marin-Llobet, Arnau and Henniger, Simon and Banaji, Mahzarin R.},
-  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2026},
-  note      = {arXiv:2605.31556}
+@article{marin2026vision,
+  title={Vision-Language Models Suppress Female Representations Under Ambiguous Input},
+  author={Marin-Llobet, Arnau and Henniger, Simon and Banaji, Mahzarin R},
+  journal={arXiv preprint arXiv:2605.31556},
+  year={2026}
 }
 ```
 
